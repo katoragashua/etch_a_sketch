@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+ body {
+    font-size: 1rem;
+    font-family: "Helvetica";
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em
+}
+
+.nav> input[type="button"] {
+    border: none;
+    font-weight: bold;
+    padding: .6rem 1rem;
+    border-radius: .3rem;
+    margin-left: 1em;
+    cursor: pointer;
+    color: #fff;
+    background-color: darkslategray;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#sketchpad {
+    display: grid;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: .4rem;
+}
+
+.cells {
+    background: blue;
+}
